@@ -9,6 +9,8 @@
 
 재도전 성공패키지 2차 사업 수행의 결과물은 안드로이드 앱으로 후원 기능을 갖춘 나눔소비 앱입니다.
 
+![Image](guide_img01.png)
+
 ```markdown
 Syntax highlighted code block
 
@@ -33,7 +35,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 [김영관](mailto:tangokorea@gmail.com)
 
-[이강구](klee6604@gmail.com)
+[이강구](mailto:klee6604@gmail.com)
 
 ### 피드백 연락방법
 
