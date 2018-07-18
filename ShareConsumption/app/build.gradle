@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId 'org.blogsite.youngsoft.piggybank'
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    // Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:16.0.2'
+    // Google Sign In SDK (only required for Google Sign In)
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    // Firebase Database
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+    implementation 'com.google.firebase:firebase-crash:16.0.1'
+    // Glide image library
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation project(':tableview')
+    implementation files('libs/gson-2.2.3.jar')
+    implementation project(':MPChartLib')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    //CircleImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'

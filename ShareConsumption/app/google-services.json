@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "114477403463",
+    "firebase_url": "https://piggybank-e2b15.firebaseio.com",
+    "project_id": "piggybank-e2b15",
+    "storage_bucket": "piggybank-e2b15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114477403463:android:4f410e53b5609243",
+        "android_client_info": {
+          "package_name": "org.blogsite.youngsoft.piggybank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114477403463-rsljkckrlc2646bpafcem4s7iv1t0m5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.blogsite.youngsoft.piggybank",
+            "certificate_hash": "c38a143aa6bc92743a5e01d6534216c441db31af"
+          }
+        },
+        {
+          "client_id": "114477403463-98h0471d8la4a4aqt6m7hiso5pd022g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.blogsite.youngsoft.piggybank",
+            "certificate_hash": "05e1eae7b19c6eedfef31d18013e55d9b4686238"
+          }
+        },
+        {
+          "client_id": "114477403463-1dpj5s5gjj4n7jajt486aq2ubo5gp7lt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.blogsite.youngsoft.piggybank",
+            "certificate_hash": "206ad9992e1a23c32534df3b1b659dd331bd07fc"
+          }
+        },
+        {
+          "client_id": "114477403463-0fb94u0654ru0kth0fqhsej82glbejok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7j9d8BfOhBPB0H9_PgIbL5Siv5S1hjJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114477403463-0fb94u0654ru0kth0fqhsej82glbejok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

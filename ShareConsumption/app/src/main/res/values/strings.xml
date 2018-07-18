@@ -1,0 +1,380 @@
+<resources>
+    <string name="app_name">티클 - 나눔소비</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- 사용자 -->
+    <string name="loading">계정에 로그인중입니다...</string>
+    <string name="loading_title">계정 로그인</string>
+    <string name="userName"></string>
+    <string name="userEmail"></string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">나눔소비 홈</string>
+    <string name="month_view">월별 소비 내역</string>
+    <string name="year_view">연별 소비내역</string>
+    <string name="month_chart_view">월별 소비내역 차트</string>
+    <string name="year_chart_view">연별 소비내역 차트</string>
+    <string name="nav_settings">설정</string>
+    <string name="nav_donation_info">분류별 후원 설정 내역</string>
+    <string name="nav_donation">후원 실행</string>
+    <string name="nav_donation_history">후원 내역</string>
+    <string name="nav_license">오픈 소스 라이선스</string>
+
+    <!-- 설정 -->
+    <string name="setting_userinfo">● 사용자 정보</string>
+    <string name="setting_username">이름</string>
+    <string name="setting_useremail">이메일</string>
+    <string name="setting_donationinfo">● 후원 설정</string>
+    <string name="setting_threshold">후원 상한 금액</string>
+    <string name="setting_percent">후원 백분률</string>
+    <string name="setting_overall">상한액 전체</string>
+    <string name="setting_switchon">사용</string>
+    <string name="setting_switchoff">안함</string>
+    <string name="setting_lastday">매월 말일 후원</string>
+    <string name="setting_donationday">후원 일자</string>
+    <string name="setting_donationorg">● 후원 기관 설정</string>
+    <string name="setting_donationname">후원 기관</string>
+    <string name="setting_selecteddonationinfo">● 후원 기관 정보</string>
+    <string name="setting_selecteddonationname">이름</string>
+    <string name="setting_selecteddonationaddr">주소</string>
+    <string name="setting_selecteddonationtel">전화번호</string>
+    <string name="setting_selecteddonationwww">홈페이지</string>
+    <string name="setting_selecteddonationbank">은행 이름</string>
+    <string name="setting_selecteddonationacc">계좌 번호</string>
+    <string name="setting_debug">● 디버그 설정</string>
+    <string name="setting_trans_pwd0">이전 암호</string>
+    <string name="setting_trans_pwd">송금 암호</string>
+    <string name="showpwd">암호 보이기</string>
+    <string name="hidepwd">암호 감추기</string>
+    <string name="setting_lbldebugpwd">송금 비밀번호 설정</string>
+    <string name="setting_lblchangepwd">송금 비밀번호 수정</string>
+    <string name="input_tag">　　></string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>나눔소비 홈</item>
+        <item>월별 소비 내역</item>
+        <item>연별 소비내역</item>
+        <item>월별 소비내역 차트</item>
+        <item>연별 소비내역 차트</item>
+        <item>환경 설정</item>
+    </string-array>
+
+    <string name="activity_title_smslist">월별 소비 내역</string>
+    <string name="activity_title_carddetail">사용 정보</string>
+    <string name="activity_title_settings">환경 설정</string>
+    <string name="activity_title_license">오픈 소스 라이선스</string>
+    <string name="activity_title_privacy_policy">개인 정보 정책</string>
+    <string name="activity_title_app_permission">앱 실행 권한 보기 및 적용</string>
+    <string name="permissionButton_title">권한 적용</string>
+    <string name="activity_title_donationdetail">나눔 소비 상세 후원 설정</string>
+    <string name="apply_setting">설정 적용</string>
+    <string name="apply_donation">후원 실행 하기</string>
+    <string name="login_title">계정 로그인 및 설정</string>
+    <string name="apply_donation_detail">설정 저장</string>
+
+    <string name="sms_read_permission">\uF45B|SMS 보기 권한</string>
+    <string name="sms_read_permission_description">앱이 휴대폰 또는 SIM 카드에 저장된 SMS 메시지를 읽을 수 있도록 허용합니다. 이렇게 하면 앱이 콘텐츠 또는 비밀유지와 관계없이 모든 SMS 메시지를 읽을 수 있습니다.</string>
+    <string name="storage_permission">\uF349|사진/영상/파일</string>
+    <string name="storage_permission_description">사진, 영상, 오디오 등 기기 내에 저장된 파일, 사진, 미디어, 파일 및 외부 저장소를 사용합니다.</string>
+    <string name="receive_sms_permission">\uF2E3|SMS 수신 권한</string>
+    <string name="receive_sms_contact">\uF2E3|주소록</string>
+    <string name="receive_sms_permission_description">카드사에서 보내온 카드사용 문자 메시지를 실시간으로 분석하기 위해 SMS를 수신합니다.</string>
+    <string name="receive_contact_description">앱이 휴대폰이 알고 있는  계정 목록을 거져올 수 있도록 허용합니다. 애플리케이션에 의해 만들어진 모든 계정을 포함할 수 있습니다.</string>
+    <string name="call_permission">\uF4E1|전화 걸기</string>
+    <string name="call_permission_description">앱에서 전화를 걸 수 있도록 허용합니다. 예상치 못한 통화 요금이 부과될 수 있습니다.</string>
+    <string name="debugdesc">디버그를 설정하시면 사용내역을 분석할 때 발생되는 오류나 미분류 내용이 암호화되어 전송됩니다.</string>
+
+    <string name="category_producer_image_content_description">Car Producer</string>
+    <string name="cardName">카드이름</string>
+    <string name="approval">구분</string>
+    <string name="useDate">사용날짜</string>
+    <string name="amount">사용금액</string>
+    <string name="category">분류</string>
+
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">개인 정보 정책</string>
+    <string name="db_init">데이터베이스 초기화</string>
+    <string name="db_backup">데이터베이스 백업</string>
+    <string name="analysis">분석중...</string>
+    <string name="cardListStat">● 카드사별 사용 내역</string>
+    <string name="cardDateList">● 상세 사용 내역</string>
+    <string name="linechart">● 일자별 사용 금액</string>
+    <string name="radarchart">● 분류별 사용 금액 방사형 차트</string>
+    <string name="halfpiechart">● 분류별 사용 금액</string>
+    <string name="okbutton">확인</string>
+    <string name="delSetting">설정 삭제</string>
+    <string name="cancelButton">취소</string>
+    <string name="donationHistory">● 후원 내역</string>
+    <string name="donationHistoryChart">● 후원 내역 그래프</string>
+
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="cancel">취소</string>
+
+    <string name="threshold_title">상한 금액 설정</string>
+    <string name="donationdesc">후원 설정은 \"월별 소비내역\"이나 \"연별 소비내역\"의 \'카드사별 사용 내역\'에서 사용 카드를 선택하여 분류별 사용 금액 차트의 분류 항목을 선택하면 카드사별 사용 목록별로 설정이 가능합니다. 이 경우 아래의 설정은 무시됩니다.</string>
+    <string name="donationdetaildesc">이곳에서 후원 설정을 하시면 메인 메뉴에서 설정된 후원 금액과 관련된 설정은 무시되며 후원 일자와 관련된 설정은 유지됩니다.</string>
+    <string name="overalloff">상한액 초과 금액에 대해서만 백분률로 후원 금액이 설정됩니다. 사용금액이 십만원, 후원금 상한 금액이 오만원이고 백분률이 50%인 경우 후원금은 초과금 오만원에 대한 50%인 이만오천원으로 설정됩니다.</string>
+    <string name="overallon">상한액 전체금액에 대한 백분률로 후원금액이 설정됩니다. 사용금액이 십만원, 후원금 상한 금액이 오만원이고 백분률이 50%인 경우 기후원금은 사용금액 십만원에 대한 50%인 오만원으로 설정됩니다.</string>
+    <string name="donation_list_info">해당 목록을 선택하시면 상세 정보를 볼 수 있으며 수정 또는 삭제할 수 있습니다.</string>
+
+    <string name="donation_title">후원 일자 설정</string>
+    <string name="donationdayoff">설정된 날자가 현재 월의 마지막 날보다 큰 경우 말일로 설정됩니다.</string>
+    <string name="donationdayon">매월 말일로 설정하셨습니다.</string>
+
+    <string name="des_label">환경 설정의 사용자 정보에서 왼쪽 이미지와 같은 이미지를 터치하여 구글 계정에 로그인하시거나 후원 기관 및 송금 암호를 설정하십시오.</string>
+    <string name="title_activity_donation_detail">후원 상세 설정</string>
+    <string name="title_activity_donation_select">후원 기관 선택</string>
+    <string name="title_activity_donation_history">후원 내역 보기</string>
+
+    <string name="catagory_all">전체</string>
+    <string name="catagory_buddhism">불교</string>
+    <string name="catagory_catholic">천주교</string>
+    <string name="catagory_christian">기독교</string>
+    <string name="catagory_welfare">복지</string>
+    <string name="catagory_sicial">사회</string>
+    <string name="catagory_policy">정치</string>
+    <string name="catagory_etc">기타</string>
+
+    <!-- DonationList_Activity -->
+    <string name="select_donation">후원 기관 선택</string>
+    <string name="address">주소</string>
+    <string name="select_donation_question">위 기관을 후원 기관으로 선택하시겠습니까?</string>
+
+    <!-- SettingsActivity -->
+    <string name="threshold_edit_title">후원 상한 금액</string>
+    <string name="percent_edit_title">후원 백분율</string>
+    <string name="regist_donation">후원 기관 등록 신청</string>
+    <string name="registOKButton">등록 신청</string>
+    <string name="error">오류</string>
+    <string name="remittance_edit_title">송금 암호 설정</string>
+
+    <!-- CardDetailActivity -->
+    <string name="year">년</string>
+    <string name="month">월</string>
+    <string name="day">일</string>
+    <string name="linechart_month">● 월별 사용 금액</string>
+    <string name="dataset_label">일자별 사용금액</string>
+    <string name="dataset_month_label">월별 사용금액</string>
+    <string name="piechart_title">분류별 사용 금액</string>
+    <string name="piechart_detail_title">분류 목록별 사용금액</string>
+    <string name="won">원</string>
+    <string name="nocard">데이터가 없습니다.</string>
+
+    <!-- DonationHistory -->
+    <string name="authnum_error">인증 번호 오류</string>
+    <string name="authnum_error_msg">인증 번호를 입력하지 않았거나 잘못되었습니다.</string>
+    <string name="donation_info">월 후원 설정 정보</string>
+    <string name="donation_card_category">카드별 분류별 적용</string>
+    <string name="lblAll">전체 사용 내역 적용</string>
+    <string name="donation_info_title">후원 기관 설정</string>
+    <string name="donation_info_title_msg">후원 기관이 설정되어 있지 않습니다. 먼저 후원 기관을 설정하시기 바랍니다.</string>
+    <string name="donation_run_1">에</string>
+    <string name="donation_run_2">계좌로</string>
+    <string name="donation_run_3">을 후원하시겠습니까?</string>
+    <string name="donation_run_title">후원하기</string>
+    <string name="donation_already_run_1">기관</string>
+    <string name="donation_already_run_2">를(을)</string>
+    <string name="donation_already_run_3">에 후원하셨습니다.</string>
+    <string name="donation_already_run_title">후원한 내용</string>
+    <string name="donation_zero">후원할 금액이 없습니다.</string>
+    <string name="authnum_title">인증이 필요합니다</string>
+    <string name="wrongpwd">잘못 입력하였습니다. 다시 시도해 주세요.</string>
+    <string name="mismatchpwd">입력하신 암호가 일치하지 않습니다.</string>
+
+    <!-- DonationDetailActivity -->
+    <string name="donation_delete_title">후원 기관 삭제</string>
+    <string name="donation_delete_1">카드의</string>
+    <string name="donation_delete_2">분류로 설정된 후원 기관을 삭제하시겠습니까?</string>
+
+    <!-- HistoryViewActivity -->
+    <string name="amount_by_month">월별 후원 금액</string>
+    <string name="total_amount_by_year">년 후원금 합계</string>
+    <string name="account">계좌</string>
+    <string name="last_year">년도가 마지막입니다.</string>
+    <string name="first_year">년도가 통계작성 처음 년도입니다.</string>
+
+    <!-- MainActivity -->
+    <string name="init_db_title">데이터베이스 초기화</string>
+    <string name="init_db_msg">데이터베이스 초기화는 기존 자료를 모두 삭제한 후 문자 메시지를 새로 분석합니다.\n\n데이터베이스를 초기화하시겠습니까?</string>
+    <string name="date_format">yyyy년 MM월 dd일 hh:mm:ss</string>
+    <string name="app_permission_title">앱 권한 적용</string>
+    <string name="app_permission_msg">앱을 실행하기 위해서는 앱 실행 권한을 허용하셔야 합니다.</string>
+
+    <!-- SmsListActivity -->
+    <string name="consumption_by_month">월 지출 합계</string>
+    <string name="last_month_1">월은 현재 년도</string>
+    <string name="last_month_2">년의 마지막 달입니다.</string>
+    <string name="sms_msg">메시지 원본</string>
+
+    <!-- CardTableDataAdapter -->
+    <string name="accept">승인</string>
+    <string name="reject">취소</string>
+    <string name="reject1">거절</string>
+
+    <!-- DatabaseInitialize -->
+    <string name="db_init_msg">데이터베이스를 초기화한 후 새로 분석합니다.</string>
+    <string name="no_sms">데이터베이스를 초기화할 데이터베이스가 없습니다.</string>
+
+    <!-- DBUtils -->
+    <string name="db_backup_title">데이터베이스 백업</string>
+    <string name="db_backup_msg">데이터베이스 백업 중 입니다. 잠시만 기다려주십시오.</string>
+    <string name="db_backup_finish">데이터베이스 백업을 완료하였습니다.</string>
+
+    <!-- AuthNumpadDialog -->
+    <string name="authnum_msg_1">후원 계좌로 이체하기 위한</string>
+    <string name="authnum_msg_2">인증번호 숫자 6자리</string>
+    <string name="authnum_msg_3">를 입력해주세요.</string>
+
+    <!-- PermissionDialog -->
+    <string name="permission">권한 적용 버튼을 터치하셔야 합니다.</string>
+
+    <!-- SmsChartViewFragment -->
+    <string name="consumption_by_year">년 지출 합계</string>
+    <string name="term_start_by_year">.01 월</string>
+    <string name="term_end_by_year">.12 월</string>
+    <string name="amount_limit">임계금액</string>
+    <string name="consumption_by_card_month">월 카드별 사용 내역</string>
+    <string name="consumption_by_card_year">년 카드 사용별 내역</string>
+    <string name="consumption_by_card">카드별 사용 금액</string>
+    <string name="consumption_by_category">분류별 사용 금액</string>
+    <string name="consumption_by_category_1">분류 목록별 사용금액</string>
+
+    <!-- PushHelper -->
+    <string name="consumption_won">원 사용</string>
+    <string name="noti_title">소비 내역 알림</string>
+
+    <!-- Categorizer -->
+    <string name="date_format_kor">yyyy년 MM월 dd일 hh시 mm분 ss초</string>
+    <string name="expt_cat_1">스마트로</string>
+    <string name="expt_cat_2">코레일</string>
+
+    <!-- HyundaiCardParser -->
+    <string name="send_web">Web발신</string>
+
+    <!-- KBCardParser -->
+    <string name="cancel_complete">취소완료</string>
+    <string name="kbcard">KB국민카드</string>
+    <string name="kbcheckcard">KB국민체크</string>
+
+    <!-- NHCardParser -->
+    <string name="nhcard">NH카드</string>
+    <string name="nhcorpcard">NH기업</string>
+    <string name="nhcheckcard">NH농협카드</string>
+    <string name="cancellation">취소 접수</string>
+    <string name="approve_check">체크승인</string>
+
+    <!-- ShinhanParser -->
+    <string name="sh_approve_check">신한체크승인</string>
+    <string name="shcorp_approve_check">신한법인승인</string>
+    <string name="sh_approve_cancel">신한체크취소</string>
+    <string name="shcorp_approve_cancel">신한법인취소</string>
+
+    <!-- RulesUtils -->
+    <string name="kbnum1">15881788</string>
+    <string name="kbnum2">15881688</string>
+    <string name="shinhannum">15447200</string>
+    <string name="nhnum">15881600</string>
+    <string name="samsungnum">15888900</string>
+    <string name="hdnum">15776200</string>
+
+    <!-- SMSReader -->
+    <string name="sms_parse">문자 메시지 분석 중입니다...</string>
+    <string name="register_card_title">카드 사용 내역 등록</string>
+    <string name="register_card_msg">개의 사용내역이 등록되었습니다.</string>
+
+
+    <!-- CategoryService -->
+    <string name="cat_srv_noti_1">분류 목록 갱신으로 인해</string>
+    <string name="cat_srv_noti_2">의 사용내역이 갱신되었습니다.</string>
+    <string name="cat_srv_noti_title">사용 내역 업데이트</string>
+    <string name="cat_srv_noti_tracker">분류 목록 갱신 알림</string>
+
+    <!-- BackPressCloseHandler -->
+    <string name="exit_msg">뒤로 버튼을 한 번 더 누르시면 종료됩니다.</string>
+
+    <!-- ButtonClick -->
+    <string name="db_init_error">데이터베이스를 초기화하기 위해 데이터베이스 파일을 삭제하지 못했습니다.</string>
+
+    <!-- CardEnum -->
+    <string name="UNKNOWN_CARD">미확인 카드</string>
+    <string name="KB_CARD">KB국민카드</string>
+    <string name="SHINHAN_CARD">신한카드</string>
+    <string name="SHINHAN_CHECKCARD">신한체크카드</string>
+    <string name="SHINHAN_CORPCARD">신한법인카드</string>
+    <string name="KB_CHECKCARD">KB국민체크카드</string>
+    <string name="SHINHAN_WELFARECARD">신한복지카드</string>
+    <string name="SAMSUNG_CARD">삼성카드</string>
+    <string name="SAMSUNG_CHECKCARD">삼성체크카드</string>
+    <string name="SAMSUNG_CORPARD">삼성법인카드</string>
+    <string name="HYUNDAE_CARD">현대카드</string>
+    <string name="HYUNDAE_CHECKCARD">현대체크카드</string>
+    <string name="HYUNDAE_CORPCARD">현대법인카드</string>
+    <string name="HYUNDAE_WELFARECARD">현대복지카드</string>
+    <string name="EMART_CARD">이마트카드</string>
+    <string name="HANA_CARD">하나카드</string>
+    <string name="HANA_CHECKCARD">하나체크카드</string>
+    <string name="LOTTE_CARD">롯데카드</string>
+    <string name="LOTTE_CHECKCARD">롯데체크카드</string>
+    <string name="LOTTE_CORPCARD">롯데법인카드</string>
+    <string name="NH_CARD">NH카드</string>
+    <string name="NH_CHECKCARD">NH농협카드</string>
+    <string name="NH_CORPCARD">NH기업</string>
+    <string name="NH_WELFARECARD">NH복지카드</string>
+
+    <!-- CategoryEnum -->
+    <string name="Unclassified">미분류</string>
+    <string name="Meal">식사</string>
+    <string name="Culture">문화</string>
+    <string name="Medical">의료</string>
+    <string name="Communication">통신</string>
+    <string name="Traffic">교통/차량</string>
+    <string name="Dues">공과금</string>
+    <string name="Shopping">생활</string>
+
+    <!-- DonationEnum -->
+    <string name="Etc">기타</string>
+    <string name="Catholic">천주교</string>
+    <string name="Christian">기독교</string>
+    <string name="Buddhism">불교</string>
+    <string name="Religion">종교</string>
+    <string name="Politics">정치</string>
+    <string name="Social">Social</string>
+    <string name="Welfare">복지</string>
+
+    <!-- DonationRegistDialog -->
+    <string name="donation_name">후원 기관 이름</string>
+    <string name="donation_address">후원 기관 주소</string>
+    <string name="donation_tel">후원 기관 전화번호</string>
+    <string name="donation_www">후원 기관 홈페이지</string>
+    <string name="donation_bank">후원 기관 은행 이름</string>
+    <string name="donation_account">후원 기관 은행 계좌</string>
+    <string name="select_category">후원 기관 선택</string>
+    <string name="regist_finish_title">후원 기관 등록 요청 완료</string>
+    <string name="regist_finish">후원 기관 등록 요청을 완료 하였습니다. 요청된 후원 기관은 검토후 정식으로 등록됩니다.</string>
+    <string name="regist_error_title">후원 기관 등록 요청 오류</string>
+    <string name="regist_error">후원 기관을 등록하려면 모든 데이터를 입력하셔야 합니다.</string>
+    <string name="title_activity_sns_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="activity_title_snslogin">로그인</string>
+    <string name="agree_with_services">서비스 이용약관에 동의</string>
+</resources>

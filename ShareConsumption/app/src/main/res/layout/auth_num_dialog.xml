@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/round_popup_top"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="인증이 필요합니다."
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/edit_title1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="후원 계좌로 이체하기 위한 인증번호 숫자 6자리를 입력해주세요."
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:gravity="center"
+            android:stretchColumns="6">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/pwd0"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num_bg" />
+
+                <ImageView
+                    android:id="@+id/pwd1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num_bg" />
+
+                <ImageView
+                    android:id="@+id/pwd2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num_bg" />
+
+                <ImageView
+                    android:id="@+id/pwd3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num_bg" />
+
+                <ImageView
+                    android:id="@+id/pwd4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num_bg" />
+
+                <ImageView
+                    android:id="@+id/pwd5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/num5" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/authmsgrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/authmsg"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:layout_span="7"
+                    android:gravity="bottom|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/wrongpwd"
+                    android:textColor="@android:color/white"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/keypad"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray"
+            android:stretchColumns="3">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/num1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num1" />
+
+                <ImageView
+                    android:id="@+id/num2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num2" />
+
+                <ImageView
+                    android:id="@+id/num3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/num4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num4" />
+
+                <ImageView
+                    android:id="@+id/num5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num5" />
+
+                <ImageView
+                    android:id="@+id/num6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/num7"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num7" />
+
+                <ImageView
+                    android:id="@+id/num8"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num8" />
+
+                <ImageView
+                    android:id="@+id/num9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num9" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/toggle"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/show_num" />
+
+                <ImageView
+                    android:id="@+id/num0"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_num0" />
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="top|center_horizontal"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cellborder"
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/pw_cert_keyboard_back" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/round_popup_bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_box_round_bottom"
+            android:gravity="center"
+            android:text="@string/cancelButton"
+            android:textColor="@color/red"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/OKButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_box_round_bottom"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="@string/okbutton"
+            android:textColor="@color/red"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

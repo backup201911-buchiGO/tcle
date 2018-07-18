@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toast_design_root">
+
+    <TextView
+        android:id="@+id/TextView_toast_design"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/toast_design_bg"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="마지막입니다."
+        android:textColor="@color/primaryBlue"
+        android:textSize="14dp"
+        android:textStyle="bold"/>
+</LinearLayout>

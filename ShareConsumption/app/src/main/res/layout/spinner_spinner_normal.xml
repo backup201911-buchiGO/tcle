@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chart_box">
+
+    <ImageView
+        android:src="@drawable/spinner"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:padding="2dp"/>
+
+    <TextView
+        android:id="@+id/spinnerText"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:alpha="0.87"
+        android:gravity="left|center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="13dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textColor="#000"
+        android:textColorHint="#1f000000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/expand_arrow"
+        android:padding="2dp"/>
+
+</LinearLayout>

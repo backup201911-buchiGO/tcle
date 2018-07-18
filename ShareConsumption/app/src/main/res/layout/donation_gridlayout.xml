@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_rectangle_bg">
+
+    <ImageView
+        android:id="@+id/donation_images"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:src="@mipmap/etc" />
+
+    <TextView
+        android:id="@+id/donation_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/donation_images"
+        android:background="@drawable/title_round_bottom"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:text="후원 기관"
+        android:textAlignment="center"
+        android:textColor="@color/title_color"
+        android:textSize="11dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#C72C2C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="indigo">#4B0082</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#808080</color>
+    <color name="title_color">#444444</color>
+    <color name="setting_value_color">#F36164</color>
+
+    <color name="primaryDarkBlue">#283593</color>
+    <color name="primaryBlue">#FF3F51B5</color>
+    <color name="primaryLightBlue">#0174DF</color>
+    <color name="primaryHavyLightBlue">#77F8FF</color>
+    <color name="colorGray">#50000000</color>
+    <color name="havyGreen">#00796B</color>
+    <color name="darkGreen">#009688</color>
+    <color name="chartborder">#33C5CAE9</color>
+    <color name="table_data_row_even">#11C5CAE9</color>
+    <color name="table_data_row_odd">#33C5CAE9</color>
+    <color name="strikethru">#FF0000</color>
+    <color name="table_price_high">#FFC62828</color>
+    <color name="yesno">#2E64FE</color>
+    <color name="setting_label">#E0F8E6</color>
+</resources>
