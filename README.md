@@ -1,12 +1,12 @@
-## Welcome to GitHub Pages
+## 티클-나눔소비
 
-You can use the [editor on GitHub](https://github.com/buchiGO/tcle/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+티클 나눔소비앱은 2017년 재도전 성공패키지 사업에 선정된 (주)부치고의 과제 결과물입니다.
+재창업자 2차 선정 및 협약 내용
+협약기간: 2차 '17.9.1 ~ '18.6.30
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 결과
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+재도전 성공패키지 2차 사업 수행의 결과물은 안드로이드 앱으로 후원 기능을 갖춘 나눔소비 앱입니다. 
 
 ```markdown
 Syntax highlighted code block
