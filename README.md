@@ -6,28 +6,8 @@
 협약기간: 2차 '17.9.1 ~ '18.6.30
 
 ### 결과
-
 재도전 성공패키지 2차 사업 수행의 결과물은 안드로이드 앱으로 후원 기능을 갖춘 나눔소비 앱입니다.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### 개발팀 소개
 
