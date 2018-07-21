@@ -99,15 +99,21 @@ public class SamsungCardParser implements IParser, Serializable {
                 }
             } else {
                 cardname = CardEnum.SAMSUNG_CARD;
-                if (isNum(body.get(1))) {
-                    accept = true;
-                    approval = true;
-                    amount = body.get(1);
-                    String a = body.get(2);
-                    ussage = a.substring(a.lastIndexOf(" ")).trim();
+                //TODO: 삼카의 경우 body.get(1)에서 outof index 예외 발생 대응 임시 조취
+                if ( body.size() > 1 ) {
+                    if (isNum(body.get(1))) {
+                        accept = true;
+                        approval = true;
+                        amount = body.get(1);
+                        String a = body.get(2);
+                        ussage = a.substring(a.lastIndexOf(" ")).trim();
+                    } else {
+                        accept = false;
+                    }
                 } else {
-                    accept = false;
+                    log();
                 }
+
             }
             if (accept) {
                 category = categorizer.parseCategory(timestamp, ussage);
